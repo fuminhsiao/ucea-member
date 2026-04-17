@@ -39,7 +39,7 @@ if not IS_HEROKU_APP:
 # validation of the Host header in the incoming HTTP request. On other platforms you may need to
 # list the expected hostnames explicitly in production to prevent HTTP Host header attacks. See:
 # https://docs.djangoproject.com/en/5.0/ref/settings/#std-setting-ALLOWED_HOSTS
-ALLOWED_HOSTS = [os.getenv('ALLOWED_HOSTS', 'ucea-executive-tracker.onrender.com')]
+ALLOWED_HOSTS = [os.getenv('ALLOWED_HOSTS', 'ucea-member.onrender.com')]
 
 
 
